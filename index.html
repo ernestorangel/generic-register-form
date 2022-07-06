@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset='utf-8'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='stylesheet' href='style.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 id="page-title">REGISTER FORM</h1>
+        </header>
+        <main>
+            <section id="form-section">
+                <form id="register-form">
+                    <h3>Personal Information</h3>
+                    <div class="form-piece">
+                        <div class="field-container">
+                            <label>First Name</label>
+                            <input type="text" name="name" placeholder="Type here your first name">
+                        </div>
+                        <div class="field-container">
+                            <label>Last Name</label>
+                            <input type="text" name="lastname" placeholder="Type here your last name">
+                        </div>
+                        <div class="field-container">
+                            <label>Birthday</label>
+                            <input type="date" name="birth" placeholder="Bithday">
+                        </div>
+                    </div>
+                    <h3>Log In Information</h3>
+                    <div class="form-piece">
+                        <div class="field-container">
+                            <label>E-mail</label>
+                            <input type="email" name="email1" placeholder="Type here your best e-mail">
+                        </div>
+                        <div class="field-container">
+                            <label>Confirm e-mail</label>
+                            <input type="email" name="email2" placeholder="Confirm your e-mail">
+                        </div>
+                        <div class="field-container">
+                            <label>Choose a password</label>
+                            <input type="password" name="pass1" placeholder="Choose a strong password">
+                        </div>
+                        <div class="field-container">
+                            <label>Confirm password</label>
+                            <input type="password" name="pass2" placeholder="Type the strong password again">
+                        </div>
+                    </div>
+                    <div id="password-verification-area">
+                        <p>Your password must contain:</p>
+                        <ul>
+                            <li>At least 8 characters</li>
+                            <li>At least 1 number</li>
+                            <li>At least 1 lower case letter</li>
+                            <li>At least 1 upper case letter</li>
+                            <li>At least 1 special character</li>
+                        </ul>
+                    </div>
+                    <h3>Terms of Service & Privacy Options</h3>
+                    <div class="form-piece">
+                        <div class="field-container">
+                            <input type="checkbox">
+                            <label>I agree with the Terms of Service</label>
+                        </div>
+                        <div class="field-container">
+                            <input type="checkbox">
+                            <label>I agree with the Terms of Service</label>
+                        </div>
+                        <div class="field-container">
+                            <input type="checkbox">
+                            <label>I agree with the Terms of Service</label>
+                        </div>
+                        <div class="field-container">
+                            <input type="checkbox">
+                            <label>I agree with the Terms of Service</label>
+                        </div>
+                    </div>
+                    <div id="button-container">
+                        <button id="signup-button">Sign Up</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Developed by Ernesto Rangel</p>
+            <p>Using HTML, CSS and JavaScript</p>
+            <p>@ 2022</p>
+        </footer>
+    </body>
+</html>
